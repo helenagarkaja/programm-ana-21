@@ -20,23 +20,24 @@ def zvaigznites1(skaits):
 def zvaignites2(skaits):
     for rindasNr in range(1, skaits+1):
         print("*"*rindasNr)
+        
+        
 
 
-zvaigznites(7)
-
-skaitlis1 = 7
-skaitlis2 = 3
 
 
-print("pirmais skaitlis:", skaitlis1)
-print("otrais skaitlis:", skaitlis2)
-print("rezultats:", rezultats(skaitlis1, skaitlis2))
+saraksts1 = [1, 7, 5 ,9, 35, 2]
+saraksts2 = [4, 2, 2, 39, 6, 4]
 
-pirmais = "6"
+for skaititajs in rage(len(saraksts1)):
+    print("pirmais skaitlis:", saraksts1[skaititajs], "otrais skaitlis:", saraksts2[skaititajs], "rezulats:",rezultats(saraksts1[skaititajs], saraksts2[skaititajs]))
+skaitlu_pari = [[2 ,5], [4, 7], [3, 4], [7, 9]]
 
-print(pirmais)
+print("--------------------------------------")
 
-vards2 = "Nē"
+for i in range(len(skaitlu_pari)):
+    print("skaititajs:", i , "pirmais skaitlis:", skaitlu_pari[i][0], "otrais skaitlis:", skaitlu_pari[i][1], "rezultāts:", rezultats(skaitlu_pari[i][0], skaitlu_pari[i][1]))
 
-print(pirmais + vards2)
+print("--------------------------------------")
 
+for elements in skaitlu_pari:
